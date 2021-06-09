@@ -15,7 +15,7 @@ print(big(a))
 #Ejemplo: count_positives([1, 6, -4, -2, -7, -2]) cambia la lista a [1, 6, -4, -2, -7, 2] y la devuelve
 
 def contPositivos(x):
-    positivos=0
+    positivos=0 
     for i in range(0,len(x)):
         if x[i] > 0 :
             positivos=positivos+1
