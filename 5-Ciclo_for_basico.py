@@ -107,10 +107,10 @@ def analisis(x):
         else: 
             if x[i] > maximo:
                 maximo=x[i]
-    dicc = { "Suma": suma, "Minimo": minimo, "Maximo": maximo, "Promedio": suma/len(x),"Longitud": len(x) }
+    dicc = { "Suma": suma, "Minimo": minimo, "Maximo": maximo, "Promedio": round(suma/len(x),2),"Longitud": len(x) }
     return dicc
 
-x = [11, 12, 3, 20, 7, 15, 88]
+x = [11, 12,12, 3, 20, 7, 15, 88,88]
 print(analisis(x))
 
 
